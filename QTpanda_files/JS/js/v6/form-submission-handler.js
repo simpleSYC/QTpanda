@@ -1,7 +1,7 @@
 (function() {
 	
 var iFo=document.getElementById("Ifo");
-var FRM=document.getElementById("tst");  // gform/ ova e toa glavnoto za snemuvanjeee
+var FRM=document.getElementById("frm");  // gform/ ova e toa glavnoto za snemuvanjeee
 
 
 
@@ -62,7 +62,7 @@ var FRM=document.getElementById("tst");  // gform/ ova e toa glavnoto za snemuva
 
     // add form-specific values into the data
     formData.formDataNameOrder = JSON.stringify(fields);
-    formData.formGoogleSheetName = form.dataset.sheet || "ajde"; // default sheet name
+    formData.formGoogleSheetName = form.dataset.sheet || "QT"; // default sheet name
     formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
 
     console.log(formData);
@@ -87,7 +87,9 @@ var FRM=document.getElementById("tst");  // gform/ ova e toa glavnoto za snemuva
         return false;
       }
     } else {
-		
+
+	document.getElementById("KOPCEppl").style.display="none";
+	
       disableAllButtons(form);
       var url = form.action;
       var xhr = new XMLHttpRequest();
@@ -99,13 +101,11 @@ var FRM=document.getElementById("tst");  // gform/ ova e toa glavnoto za snemuva
           console.log(xhr.responseText);
 		  
 var Emlot=data.email;		  
-		  
-		iFo.innerHTML="<span style='color:green;'>Diese BESTELUNG ist erfoglisch gemacht</span> <br> <span style='color:yellow;'>"+Emlot+"</span>  <p style='color:white;'> Sie becomen ein Email fur diese Bestelung</p><p style='color:grey;'>refresh die website fur neue bestelung <p>";
-		
-		
-		document.getElementById("KOPCEppl").style.display="none";
+
 		FRM.style.display="none";
 		
+		iFo.innerHTML="<span style='color:green;'>Diese BESTELUNG ist erfoglisch gemacht</span> <br> <span style='color:yellow;'>"+Emlot+"</span>  <p style='color:white;'> Sie becomen ein Email fur diese Bestelung</p><p style='color:grey;'>refresh die website fur neue bestelung <p>";
+		document.getElementsByClassName("btn btn-danger sc-cart-clear")[0].click();
 		  
           var formElements = form.querySelector(".form-elements")
           if (formElements) {
@@ -142,9 +142,6 @@ var Emlot=data.email;
     for (var i = 0; i < buttons.length; i++) {
       buttons[i].disabled = true;
     }
-	
-
-	
 	
 	
 	

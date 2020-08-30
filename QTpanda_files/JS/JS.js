@@ -1,4 +1,7 @@
 
+function DKMT_RDY(){
+document.getElementsByClassName("btn btn-info sc-cart-checkout")[0].addEventListener("click", openModal);} 
+
 // Modal Image Gallery
 function onClick(element) {
   document.getElementById("img01").src = element.src;
@@ -52,22 +55,4 @@ function delTE() {
     tt++;
     setTimeout(delTE, speed*4);
 }}
-
-
-//ova e event listner
-
-
-function DKMT_RDY(){
-document.getElementsByClassName("btn btn-info sc-cart-checkout")[0].addEventListener("click", OPMD); 
-document.getElementsByClassName("btn btn-info sc-cart-checkout")[0].addEventListener("click", openModal); 
-
- }
-
-
-
-
-
-
-
-
 

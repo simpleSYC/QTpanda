@@ -1,9 +1,0 @@
-T=[
-T_0=["Duftkerze","-lion","Dimension:<br>H 7.5 cm<br>B 7.5 cm<br>L  7.5 cm",true,"Duft :","jagoda","okean",0,0,0,0,false,0,0,0,0,0,0,4.29],
-T_1=["Duftkerze","-panda","Dimension:<br>H 7.5 cm<br>B 7.5 cm<br>L  7.5 cm",true,"Duft :","jabuka","jagoda","vanila",0,0,0,false,0,0,0,0,0,0,5.74],
-T_2=["Raumduft ","-bar","Inhalt :<br> 30 ml <br>6 stabs <br>😉",true,"Duft :","praska","voda","zelka","krusha",0,0,false,0,0,0,0,0,0,3.17],
-T_3=["Raumduft ","-wolf","Dimension:<br>H cm<br>B cm<br>L cm",true,"Duft :","golemi","mali","zeleni",0,0,0,false,0,0,0,0,0,0,3.17],
-T_4=["Lufterfrischer","-nde","Dimension:<br>H cm<br>B cm<br>L cm",true,"Duft :","zolti","pojaci",0,0,0,0,false,0,0,0,0,0,0,4.86],
-T_5=["Lufterfrischer","-hund","Dimension:<br>H cm<br>B cm<br>L cm",true,"Duft :","pojaci","zolti",0,0,0,0,false,0,0,0,0,0,0,4.86],
-T_6=["Stumpenkerze","-nde","Dimension:<br>H 9.5 cm<br>B 5.8 cm<br>L 5.8 cm",false,0,0,0,0,0,0,0,false,0,0,0,0,0,0,5.17],
-T_7=["Stumpenkerze","-hund","Dimension:<br>H 10 cm<br>B 7 cm<br>L 7 cm",true,"Model :","krastavica","jogurt",0,0,0,0,false,0,0,0,0,0,0,5.17]]

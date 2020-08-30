@@ -1,4 +1,36 @@
 
+var QQQ=document.getElementsByTagName("aside")[0];var qqq=document.getElementById("qqQQ");
+
+function openModal() {
+if(document.getElementsByClassName("btn btn-info sc-cart-checkout")[0].classList.contains("disabled")==false){OPMD();	
+
+sminka(true);
+document.getElementById("contact").style.display = "block";var CLN=QQQ.cloneNode(true);qqQQ.appendChild(CLN);
+//qqQQ.children[0].children[2].children[3].children[1].remove();
+qqQQ.children[0].children[0].children[3].children[0].children[0].children[0].innerHTML=pre1;
+qqQQ.children[0].children[0].children[3].remove();
+
+}}
+function closeModal() { sminka(false);
+document.getElementById("contact").style.display = "none";document.getElementsByTagName("aside")[1].remove();
+}
+
+function sminka(a){
+var NBR=document.getElementsByClassName("sc-cart-item-qty");
+var XX=document.getElementsByClassName("sc-cart-remove");
+if(a==true){
+for(i=0;i<XX.length;i++){XX[i].style="display:none;";}
+for(i=0;i<NBR.length;i++){NBR[i].type="text";NBR[i].disabled=true;}
+}else{
+for(i=0;i<XX.length;i++){XX[i].style="display:block;";}
+for(i=0;i<NBR.length;i++){NBR[i].type="number";NBR[i].disabled=false;}
+}}
+
+
+
+//////////////////////
+
+
 //filterSelection("all")
 function filterSelection(c) {
   var x, i;
@@ -84,8 +116,20 @@ function MST_FOTOTO(N,a){ MMR=a.parentElement.parentElement.parentElement.parent
 a.parentElement.parentElement.parentElement.parentElement.parentElement.children[0].src=SPOJKA;}
 
 
+////////////////////////////
+var CC;
+function ceni (a){
+b=a.parentElement.parentElement.parentElement.children[0].src;
+LOKALIZACIJA(b);
+zaq();	
+CC=ELMENTOS[A_KAT][N_KAT][18];
 
+a.previousElementSibling.previousElementSibling.previousElementSibling.innerHTML="&euro; "+CC;
+a.previousElementSibling.previousElementSibling.value=CC;
 
+	
+}
+////this.parentElement.parentElement.parentElement.children[0].src
 //////////////////////
 
 var A_KAT;var N_KAT;var M_KAT;
@@ -96,7 +140,7 @@ GL_F_2=document.getElementById("GOLEMO_F_2"),
 GL_F_3=document.getElementById("GOLEMO_F_3")];var ASCR;
 
 function OPEN_F_MODEL(a){   ASCR=a.slice(0,a.length-5);//A2/6
-LOKALIZACIJA(a)
+LOKALIZACIJA(a);
 currentSlide(1);
 
 var slideIndex = 1;
