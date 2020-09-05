@@ -64,12 +64,10 @@ function w3RemoveClass(element, name) {
 }
 ///////////////
 
-function MESTENJE(a){
-TTL.innerHTML=RUBRIKI[a];
-FT_1.src=FOTKIrr[a][0];FT_2.src=FOTKIrr[a][1];
-FT_1_INFO.innerHTML=F_TXTrr[a][0];FT_2_INFO.innerHTML=F_TXTrr[a][1];
-VIDE.src=VIDsrc[a];
-}
+function MESTENJE(a){TTL.innerHTML=RUBRIKI[a]; document.getElementById("VD").style="display:block;";
+FT_1.src=RUBE[a][0];FT_1_INFO.innerHTML=RUBE[a][1];
+VIDE.src=RUBE[a][2];
+FT_2.src=RUBE[a][3];FT_2_INFO.innerHTML=RUBE[a][4];}
 
 
 //////////////////////////

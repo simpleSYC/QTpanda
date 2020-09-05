@@ -1,5 +1,5 @@
 
-function DKMT_RDY(){
+function DKMT_RDY(){ welcome ();
 document.getElementsByClassName("btn btn-info sc-cart-checkout")[0].addEventListener("click", openModal);} 
 
 // Modal Image Gallery
@@ -20,6 +20,16 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+
+
+function welcome (){document.getElementById("VD").style="display:none;";
+TTL.innerHTML="Welcome";
+
+
+FT_1.src="QTpanda_files/IMG/panada1000px.png";FT_1_INFO.innerHTML="QTpanda ecommerc <br><br><br>";
+POP=true;
+pops=["QTpanda_files/data/POP/0.jpg","ANGEBOTT  <br> ovaj artikal e na agebot <br><br><br>"]
+if(POP){FT_2.src=pops[0];FT_2_INFO.innerHTML=pops[1];}}
 
 
 ///ova zafotochange
